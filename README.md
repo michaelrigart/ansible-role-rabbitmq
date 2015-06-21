@@ -1,6 +1,6 @@
 Ansible RabbitMQ Role
 =====================
-[![Build Status](https://travis-ci.org/michaelrigart/ansible-role-rabbitmq.svg?branch=master)](https://travis-ci.org/michaelrigart/ansible-role-rabbitmq)
+[![Build Status](https://semaphoreci.com/api/v1/projects/0338291a-5bfc-4dca-9ec4-b2f480183e30/461774/badge.svg)](https://semaphoreci.com/michaelrigart/ansible-role-rabbitmq) [![Build Status](https://travis-ci.org/michaelrigart/ansible-role-rabbitmq.svg?branch=master)](https://travis-ci.org/michaelrigart/ansible-role-rabbitmq)
 
 An ansible role for installing RabbitMQ.
 
