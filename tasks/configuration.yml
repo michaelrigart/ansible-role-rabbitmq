@@ -13,7 +13,7 @@
 - name: rabbitmq-env.config file
   template:
     src: rabbitmq-env.j2
-    dest: /etc/rabbitmq/rabbitmq-env.config
+    dest: /etc/rabbitmq/rabbitmq-env.conf
     owner: root
     group: root
     mode: 0644
@@ -43,4 +43,3 @@
     state: disabled
   when: rabbitmq_disable_plugins != None
   notify: rabbitmq_restart
-
